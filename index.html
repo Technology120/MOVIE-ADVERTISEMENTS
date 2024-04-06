@@ -1,0 +1,3306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css"> 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    }) 
+    </script>
+
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+
+    <title>MOVIE ADVERTISEMENTS</title>
+  </head>
+  <body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-light bg-white sticky-top">
+        <a class="navbar-brand">
+          <img src="assets/icons/singapore_lion.png">
+        </a>
+        <div class="navbar-content">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#title-text">
+                Top of Page
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#main-picture">
+                Landmarks
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#other-items">
+                Nature And Others
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                Culture And National Education
+              </a>
+              <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="#singlish"> Singlish Dictionary </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#national-anthem"> National Anthem </a>
+                <a class="dropdown-item" href="#timeline-row"> Singapore's History </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="row m-3" id="title-text">
+        <div class="col-md-12">
+            <br>
+            <!--Title Jumbotron-->
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col pt-5">
+                        <h1 class="display-4"> Movie <span class="badge badge-danger"> Recommendations 
+                         For <span class="badge badge-warning badge-pill"> Any </span> Ages! </span></h1>
+                      </div>
+                      <div class="col-3">
+                        <img src="assets/icons/singapore_lion.png" height="200px">
+                    </div>
+                </div>
+     
+            </div>
+        </div>
+      </div>
+      <div class="row" id="main-picture">
+        <div class="col-md-12">
+          <div class="alert alert-info alert_dismissible fade show">
+              <button type="button" class="close" data-dismiss="alert"> &times; </button>
+              This site was created by Zavier.
+          </div>
+          <div id="landmarks-carousel" class="carousel slide" data-ride="carousel">
+
+              <!-- Carousel Items -->
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="assets/The_Incredibles.jpg" height="490px" width="1200px">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/The_Shrek.jpg" height="490px" width="1200px">
+                  </div>
+                  <div class="carousel-item">
+                      <img src="assets/Kung_Fu_Panda.jpg" height="490px" width="1200px">
+                  </div>
+              </div>
+
+              <!-- Carousel Controls -->
+              <a class="carousel-control-prev" href=#landmarks-carousel data-slide="prev">
+                  <span class="fa fa-chevron-left"></span>
+              </a>
+              <a class="carousel-control-next" href=#landmarks-carousel data-slide="next">
+                <span class="fa fa-chevron-right"></span>
+              </a>
+
+              <!-- Carousel Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#landmarks-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#landmarks-carousel" data-slide-to="1"></li>
+                <li data-target="#landmarks-carousel" data-slide-to="2"></li>
+              </ol>
+
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row mt-5" id="icons">
+        <div class="col-md-4 text-center">
+          <h4>THE INCREDIBLES</h4>
+            <a href="https://disneynews.us/movie/the-incredibles/" 
+                class="btn btn-primary" style="width:180px">
+            Description of The Incredibles</a>        
+        </div>
+        <div class="col-md-4 text-center">
+          <h4>SHREK</h4>
+            <a href="https://www.britannica.com/topic/Shrek-fictional-character" 
+                class="btn btn-primary" style="width:120px">
+            Description of Shrek</a>        
+        </div>
+        <div class="col-md-4 text-center">
+          <h4>KUNG FU PANDA</h4>
+            <a href="https://en.wikipedia.org/wiki/Kung_Fu_Panda" 
+                class="btn btn-primary" style="width:165px">
+            Description of Kung Fu Panda</a>
+        </div>
+      </div>
+        
+
+      <div class="row p-5" id="other-items">
+        <div class="col-md-6 text center p-4" style="background-color: bisque">
+          <h2>Visit Movie Theatres</h2>
+          <img src="assets/Movie Theatre.jpg"alt="" style="width: 100%" class="p-3">
+          <a href="https://cathaycineplexes.com.sg/"><p>Find out more</p></a>
+        </div>
+        <div class="col-md-6 text center p-4" style="background-color:wheat">
+            <h2>Explore Cathay's Movie Theatre</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7887120139685!2d103.8339985736316!3d1.3016865986859556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19910f0c797b%3A0x36e8dc19aa156614!2sCineleisure!5e0!3m2!1sen!2ssg!4v1711764890502!5m2!1sen!2ssg" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="row py-3" id="nature">
+        <div class="col-md-12 nature gallery">
+          <h2 class="nature-gallery-title"> Nature Gallery</h2>
+  
+          <div class=card-deck>
+  
+            <div class="card bg-danger">
+                <img class="card-img-top"
+                      src="assets/Cathay.jpg">
+  
+                  <div class="card-body">
+                      <h4 class="card-title"> Cathay Movie Theatre </h4>
+                      <p class="card-text">
+                          This is at Johor Bahru. </p>
+                </div>
+            </div>
+  
+            <div class="card bg-info">
+                <img class="card-img-top"
+                    src="assets/Golden_Village.jpg">
+  
+                <div class="card-body">
+                    <h4 class="card-title"> Golden Village Movie Theatre </h4>
+                    <p class="card-text">
+                        This is at Junction 8. </p>
+              </div>
+            </div>
+  
+            <div class="card bg-success">
+              <img class="card-img-top"
+                    src="assets/Shaw.jpg">
+  
+                <div class="card-body">
+                    <h4 class="card-title"> Shaw Movie Theatre </h4>
+                    <p class="card-text">
+                        This is at Orchard. </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row py-3" id="singlish">
+        <div class="col-md-12">
+            <h1><span class="badge badge-info">
+                Singlish Dictionary </span></h1>
+            <table class="table table-borderless">
+                <thead class="thead-dark">
+                    <tr>
+                      <th> No. </th>
+                      <th class="w-50"> Movie Terms </th>
+                      <th> Language In Movies </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                      <td> 1 </td>
+                      <td>
+                          <a href="#singlish" data-toggle="popover" data-container="body"
+                            data-content="Establishing the scale and perspective of the scene."
+                            data-placement="right" title="Alamak" data-trigger="hover">
+                            Shot Types </a> 
+                      </td>
+                      <td> English </td>
+                    </tr>
+                    <tr>
+                      <td> 2 </td>
+                      <td> 
+                        <a href="#singlish" data-toggle="popover" data-container="body"
+                      data-content="Describing the mood and aesthetic of the visuals."
+                      data-placement="right" title="Kiasu" data-trigger="hover">
+                        Lightning Terms </a> 
+                      </td>
+                      <td> English </td>
+                    </tr>
+                    <tr>
+                      <td> 3 </td>
+                      <td>  <a href="#singlish" data-toggle="popover" data-container="body"
+                        data-content="Detailing the auditory elements and how they interact with the picture."
+                        data-placement="right" title="Bojio" data-trigger="hover">
+                        Sound Jargon </a>
+                      </td>
+                      <td> English </td>
+                    </tr>
+                    <tr>
+                      <td> 4 </td>
+                      <td>  <a href="#singlish" data-toggle="popover" data-container="body"
+                        data-content="Outlining the process of splicing and arranging footage."
+                        data-placement="right" title="Atas" data-trigger="hover">
+                      Editing Lingo </a>
+                      </td>
+                      <td> English </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+      </div>
+  
+      <div class="row pb-3" id="national-anthem">
+        <div class="col-md-12 text-center mb-3 py-1" style="border: 1px solid">
+            <h1>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="<h4><em>EXCITING!</em></h4>" data-html="true"> 
+                THRILLING 
+              </a> MOVIES FOR <em> ALL AGES </em> 
+            </h1>
+        </div>
+        <div class="col-md-7 text-center">
+            <div id="anthem-accordion">
+                <div class="card">
+                    <div class="card-header">
+                      <h2 class="mb-0">
+                        <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#english-anthem-body"> 
+                          Click Here For Movie Recommendations For Kids
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="english-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                      <p>Inside Out - A American media franchise created by Pete Docter1. It follows the inner workings of the mind of a young girl named Riley, who adapts to her family's relocation, as five personified emotions administer her thoughts and actions. The film is about human emotions and relationship dynamics. Docter conceived Inside Out in October 2009 after observing changes in his daughter's personality as she grew older.</p>
+                      <p>Encanto - A musical animated film that tells the story of the Madrigal family, who live hidden in the mountains of Colombia in a magical house called an Encanto. The family members, except for Mirabel Madrigal, have magical powers that help them serve the people in their rural community. The film follows a Colombian teenage girl who is the only member of her family without magical powers.</p>
+                      <p>Finding Nemo -  A movie that tells the story of an overprotective clownfish named Marlin who, along with a forgetful regal blue tang named Dory, searches for his missing son Nemo. Nemo is abducted by a boat and sent to a dentist's office in Sydney. Along the way, Marlin learns to take risks and comes to terms with Nemo taking care of himself.</p>
+                    </div>
+                </div>    
+
+                <div class="card">
+                  <div class="card-header">
+                    <h2 class="mb-0">
+                      <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#chinese-anthem-body"> 
+                        Click Here For Movie Recommendations For Adults
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="chinese-anthem-body" class="card-body anthem-body collapse" data-parent="#anthem-accordion">
+                     <p>Inception - A 2010 science fiction action film written and directed by Christopher Nolan. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. The term "inception" can also refer to the beginning of an organization or official activity.</p>
+                     <p>Jaws - A American suspense and horror film directed by Steven Spielberg and released in 1975. It is considered the first summer blockbuster. The film is based on the 1974 novel of the same name by author Peter Benchley. It tells the story of a great white shark that terrorizes a beach resort town. The protagonist, Police Chief Martin Brody, tries to protect beachgoers from the shark by closing the beach.</p>
+                     <p>Ghostbusters - A 1984 American supernatural comedy film. It is directed and produced by Ivan Reitman, and written by Dan Aykroyd and Harold Ramis. The film stars Bill Murray, Aykroyd, and Ramis as Peter Venkman, Ray Stantz, and Egon Spengler, three eccentric parapsychologists who start a ghost-catching business in New York City. After losing their cushy positions at a university in New York City, they decide to become "ghostbusters" to wage a high-tech battle with the supernatural for money.</p>
+                  </div>
+              </div>    
+            </div>
+        </div>
+        <div class="col-md-5 text-center">
+             <button type="button" class="btn btn-danger btn-lg malay-anthem-btn"
+              data-toggle="collapse" data-target="#malay-anthem-body">
+                      Click Here For Movie Recommendations For The Elderly </button>
+            <div id="malay-anthem-body" class="collapse">
+                <p>Oddballs - A true story about an eccentric chicken farmer who, with the help of his granddaughter, trains his mischievous dog Oddball to protect a wild penguin sanctuary from fox attacks and in the process tries to reunite his family and save their seaside town.</p>
+                <p>Shine - A 1996 Australian biographical psychological drama film directed by Scott Hicks from a screenplay by Jan Sardi, based on the life of David Helfgott, a pianist who suffered a mental breakdown and spent years in institutions.</p>
+                <p>Casablanca - A classic 1942 romantic drama set during World War II. The film centers on Rick Blaine, an American expatriate who runs a nightclub in Casablanca, Morocco. The story unfolds as Rick encounters Ilsa Lund, his former lover, who is now with her husband, Victor Laszlo, a Czech resistance leader. They seek Rick's help to obtain exit visas to escape to America. Rick is torn between his love for Ilsa and the moral imperative to help Laszlo, who is pursued by the Nazis. The film is renowned for its themes of love, sacrifice, and moral ambiguity. "Casablanca" won the Academy Award for Best Picture and is celebrated for its iconic characters, memorable lines, and the timeless song "As Time Goes By" performed by Sam, the pianist at Rick's café</p>
+            </div>
+        </div>
+      </div>
+
+      <hr>
+      <div class="row pb-3" id="timeline-row">
+        <div class="col-md-12 text-center">
+            <h1 class="display-4 mb-3"> Movie's History (How a movie was created) </h1>
+        </div>
+        <div class="col-md-12 py-3 timeline">
+            <div class="container left">
+              <div class="content">
+                <!-- TEXT GOES HERE -->
+                <h2> Year 1878 </h2>
+                <h3><a href="#" data-toggle="modal"
+                  data-target="#modal-1"> The First Movie Movements </a></h3>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <!-- TEXT GOES HERE -->
+                <h2> Year 1888 </h2>
+                <h3><a href="#" data-toggle="modal"
+                  data-target="#modal-2"> The First Motion Picture </a></h3>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <!-- TEXT GOES HERE -->
+                <h2> 1918 </h2>
+                <h3><a href="#" data-toggle="modal"
+                  data-target="#modal-3"> Soviet Motage Theory </a></h3>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <!-- TEXT GOES HERE -->
+                <h2> Year 1930 </h2>
+                <h3><a href="#" data-toggle="modal"
+                  data-target="#modal-4"> The End Of The Silent Era </a></h3>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="history-modals">
+        <!-- Modal 1 -->
+        <div class="modal fade" id="modal-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">
+                The First Movie Movements </h5>
+              </div>
+              <div class="modal-body">
+                <p> The first movie movements was not even intended to entertain anyone. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn
+                btn-secondary" data-dismiss="modal">
+                Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal fade" id="modal-2">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">
+                The First Motion Picture </h5>
+              </div>
+              <div class="modal-body">
+                <p> The first motion pictures were incredibly simple – usually just a few frames of people or animals. </p>              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn
+                btn-secondary" data-dismiss="modal">
+                Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal 3-->
+        <div class="modal fade" id="modal-3">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">
+                Soviet Montage Theory </h5>
+              </div>
+              <div class="modal-body">
+                <p> A film movement that took place in Soviet Russia during the 1910s, 20s and into the early 30s. </p>              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn
+                btn-secondary" data-dismiss="modal">
+                Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal 4-->
+        <div class="modal fade" id="modal-4">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">
+                  The End Of The Silent Era </h5>
+              </div>
+              <div class="modal-body">
+                <p> By the early 1930s, the silent film era was over as “talkies” became a theatre sensation. </p>              
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn
+                btn-secondary" data-dismiss="modal">
+                Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
